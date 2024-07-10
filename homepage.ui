@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>homepage</class>
+ <widget class="QWidget" name="homepage">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>654</width>
+    <height>503</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(161, 214, 188);</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>20</y>
+     <width>120</width>
+     <height>80</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>120</width>
+     <height>80</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>120</width>
+     <height>80</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 20pt &quot;王羲之书法字体&quot;;</string>
+   </property>
+   <property name="text">
+    <string>图书管理系统</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>130</y>
+     <width>421</width>
+     <height>331</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <widget class="QPushButton" name="searchButton">
+      <property name="minimumSize">
+       <size>
+        <width>140</width>
+        <height>120</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>140</width>
+        <height>120</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 48pt &quot;微软雅黑&quot;;
+font: 24pt &quot;AcadEref&quot;;
+background-color: rgb(254, 251, 196);</string>
+      </property>
+      <property name="text">
+       <string>查询图书</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QPushButton" name="sendbackButton">
+      <property name="minimumSize">
+       <size>
+        <width>140</width>
+        <height>120</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>140</width>
+        <height>120</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 48pt &quot;微软雅黑&quot;;
+font: 24pt &quot;AcadEref&quot;;
+background-color: rgb(254, 251, 196);</string>
+      </property>
+      <property name="text">
+       <string>归还图书</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QPushButton" name="infoButton">
+      <property name="minimumSize">
+       <size>
+        <width>140</width>
+        <height>120</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>140</width>
+        <height>120</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 48pt &quot;微软雅黑&quot;;
+font: 24pt &quot;AcadEref&quot;;
+background-color: rgb(254, 251, 196);</string>
+      </property>
+      <property name="text">
+       <string>个人中心</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QPushButton" name="borrowButton">
+      <property name="minimumSize">
+       <size>
+        <width>140</width>
+        <height>120</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>140</width>
+        <height>120</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 48pt &quot;微软雅黑&quot;;
+font: 24pt &quot;AcadEref&quot;;
+background-color: rgb(254, 251, 196);</string>
+      </property>
+      <property name="text">
+       <string>借阅图书</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
